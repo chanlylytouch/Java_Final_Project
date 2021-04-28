@@ -9,11 +9,12 @@ import java.sql.Statement;
 import java.util.Scanner;
 
 import Employee_Management.Main;
+import Employee_Management.Menu;
 import Position.Position;
 
 public class Employee implements Menu{
-	public void menu() {
-
+	@Override
+	public void subMenu() {
 		System.out.println("==================\n Employee Menu\n================== ");
 		System.out.println("1: View Employee");
 		System.out.println("2: Create Employee");
@@ -21,6 +22,7 @@ public class Employee implements Menu{
 		System.out.println("4: Delete Employee");
 		System.out.println("5: Find Employee");
 		System.out.println("\nEnter a Option (1-5): ");
+		
 	}
 
 	public void employee() {
@@ -76,6 +78,8 @@ public class Employee implements Menu{
 		System.out.println("\nEnter a Option (1-3): ");
 		
 	}
+
+	
 
 
 }

@@ -22,7 +22,7 @@ public class Main {
 			switch (choice) {
 			case 1:
 				// System.out.println("Employee");
-				employee.menu();
+				employee.subMenu();;
 				employee.employee();
 				
 				break;
